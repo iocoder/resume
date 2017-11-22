@@ -1,0 +1,97 @@
+                         Mostafa Abdelaziz
+                   Computer and Systems Engineer
+
+Personal Info
+-------------
+Birth date: 30 April 1993
+Location:   Metro Vancouver, Canada
+Phone:      +1 778-788-0657
+Website:    http://github.com/iocoder
+Email:      iocoder@aol.com
+
+About me
+--------
+Professional engineer with wide technical expertise in automatic
+control systems, computer networks, computer architecture, embedded
+systems, and database systems.
+
+Skills
+------
+Programming:       C (Expert), PLC, SQL, UNIX, Assembly, Java, 
+                   HTML, CSS, JS, and PHP.
+Operating Systems: GNU/Linux, FreeBSD, and Windows.
+Languages:         English, Arabic, and Italian.
+
+Education
+---------
+2011 - 2016  B.Sc., Computer and Systems Engineering
+             Alexandria University
+             GPA: 3.94.
+             Overall Ranking: 1 st.
+             Graduation Project: FPGA computer based on MIPS architecture.
+             Course Highlights: Control Theory, Modern Control, Embedded Sys-
+             tems, Computer Architecture, Software Engineering, System Soft-
+             ware, Operating Systems, Compilers, Switching Theory, Automata
+             Theory, Complexity Theory.
+
+2008 - 2011 High School
+            Mubarak Secondary School, Alexandria
+            Overall Grade: 407.5/410 (99.36%).
+            Specialization: Mathematics.
+
+Experience
+----------
+Jun - Sep 17 Control Systems Engineer at Advanced HVAC Consultant, Cairo
+             Role: 
+             PLC/DDC programming for advanced HVAC systems. I was the leader
+             of a team responsible for installing and maintaining HVAC and BMS
+             systems for several clients in Cairo.
+             Duties:
+               1. Programming Saia Burgess PCD PLCs.
+               2. Designing BMS interfaces using Tridium controller.
+               3. Designing interfaces for various communication protocols.
+               4. Completing the deployment of BMS systems for several clients.
+               5. Instructing our teams on implementation of electrical boards.
+               6. Troubleshooting and solving technical problems.
+
+Jul - Dec 16 Software Engineer at Ejada Systems Ltd., Alexandria
+             Role: 
+             Programming software modules for our clients.
+             Duties:
+               1. Implementation of CRM systems using Oracle Siebel.
+               2. Developing BigData solutions using Hadoop and Scala.
+
+Jun - Sep 15 RA Intern at SmartCI Research Center, Alexandria
+             Role: Implementation of the storage system of cognitive radio cloud.
+
+Selected Projects
+-----------------
+* Systema Programming Language.
+* Quafios Operating System for x86 and MIPS.
+* Radio KAOS: Cognitive Radio with Dynamic Spectrum Sharing Engine.
+* CDP: Reliable Data Transfer Protocol for Linux Kernel TCP/IP Stack.
+* System for OS image distribution over cloud using Frisbee.
+* QCC C/Java Compiler for GNU/Linux.
+* Technical Report on UEFI.
+* Educational Program with Animated Agent for Disabled Children.
+
+Awards
+------
+2017         IELTS English Language Certificate, Band Score: 7.5.
+2017         CSED Golden Armor for the top student of 2015-2016 Class.
+2017         Prof. Naeem Abou Taleb Award for top student.
+2016         Certificate of Excellence, Alexandria University.
+2015         Certificate of Excellence, Alexandria University.
+2014         Certificate of Excellence, Alexandria University.
+2013         Certificate of Excellence, Alexandria University.
+2012         Certificate of Achievement, ACM Alexandria CPC.
+2010         Silver Medal, Egyptian Olympiad in Informatics.
+2009         Silver Medal, Egyptian Olympiad in Informatics.
+2008         Platinum Award, Cyberfair, Bibliotheca Alexandrina.
+
+Footnotes
+---------
+- You need a monospace font to correctly view this text version of my resume.
+- Mailing Address: 7252 Hastings St., Burnaby, BC, Canada - V5A 1G8.
+- You can find the LATEX source code of my resume at http://www.github.com/iocoder/resume.
+
