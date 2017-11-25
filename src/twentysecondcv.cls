@@ -128,13 +128,15 @@
 
 		%------------------------------------------------
 
-		\renewcommand{\arraystretch}{1.6}
+
+
+		\renewcommand{\arraystretch}{1.8}
 		\begin{tabular}{p{0.5cm} @{\hskip 0.5cm}p{5cm}}
 			\ifthenelse{\equal{\cvdate}{}}{}{\textsc{\Large\icon{\Info}} & \cvdate\\}
 			\ifthenelse{\equal{\cvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \cvaddress\\}
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
-			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
-			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \cvmail}
+			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \cvmail\\}
+			\ifthenelse{\equal{\cvsite}{}}{}{\includegraphics[scale=0.5]{../img/linkedin.png} & \vspace{-11px} \cvsite}
 		\end{tabular}
 
 		%------------------------------------------------
