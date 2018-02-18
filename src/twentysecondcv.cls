@@ -74,6 +74,7 @@
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
 \newcommand{\skills}[1]{\renewcommand{\skills}{#1}}
 \newcommand{\ospref}[1]{\renewcommand{\ospref}{#1}}
+\newcommand{\courses}[1]{\renewcommand{\courses}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
@@ -108,6 +109,8 @@
 	\begin{textblock}{6}(0.5, 0.2)
 			
 		%------------------------------------------------
+
+        \vspace{18px}
 		
 		\ifthenelse{\equal{\profilepic}{}}{}{
 			\begin{center}
@@ -138,6 +141,7 @@
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \cvmail\\}
 			\ifthenelse{\equal{\cvsite}{}}{}{\includegraphics[scale=0.5]{../img/linkedin.png} & \vspace{-11px} \cvsite}
 		\end{tabular}
+        \ifthenelse{\equal{\cvsite}{}}{\vspace{-20px}}{}
 
 		%------------------------------------------------
 		
@@ -167,7 +171,12 @@
 		\langs
 			
 		%------------------------------------------------
-			
+
+		\profilesection{Courses}
+
+        \raggedright
+        \courses
+
 	\end{textblock}
 }
 
