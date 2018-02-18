@@ -71,9 +71,11 @@
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
+\newcommand{\cvlinkedin}[1]{\renewcommand{\cvlinkedin}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
 \newcommand{\skills}[1]{\renewcommand{\skills}{#1}}
 \newcommand{\ospref}[1]{\renewcommand{\ospref}{#1}}
+\newcommand{\courses}[1]{\renewcommand{\courses}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
@@ -108,6 +110,8 @@
 	\begin{textblock}{6}(0.5, 0.2)
 			
 		%------------------------------------------------
+
+        \vspace{18px}
 		
 		\ifthenelse{\equal{\profilepic}{}}{}{
 			\begin{center}
@@ -128,14 +132,18 @@
 
 		%------------------------------------------------
 
-		\renewcommand{\arraystretch}{1.6}
+
+
+		\renewcommand{\arraystretch}{1.8}
 		\begin{tabular}{p{0.5cm} @{\hskip 0.5cm}p{5cm}}
 			\ifthenelse{\equal{\cvdate}{}}{}{\textsc{\Large\icon{\Info}} & \cvdate\\}
 			\ifthenelse{\equal{\cvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \cvaddress\\}
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
-			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
-			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \cvmail}
+			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \cvmail\\}
+			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\large\icon{\Mundus}} & \cvsite\\}
+			\ifthenelse{\equal{\cvlinkedin}{}}{}{\includegraphics[scale=0.5]{../img/linkedin.png} & \vspace{-11px} \cvlinkedin}
 		\end{tabular}
+        \ifthenelse{\equal{\cvlinkedin}{}}{\vspace{-20px}}{}
 
 		%------------------------------------------------
 		
@@ -165,7 +173,12 @@
 		\langs
 			
 		%------------------------------------------------
-			
+
+		%\profilesection{Courses}
+
+        %\raggedright
+        %\courses
+
 	\end{textblock}
 }
 
