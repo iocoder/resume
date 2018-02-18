@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.21)  24 JAN 2018 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.21)  18 FEB 2018 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,36 +668,36 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 (../build//mabdelaz.aux)
 \openout1 = `mabdelaz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Try loading font information for T1+ClearSans-LF on input l
-ine 48.
+ine 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/clearsans/T1ClearSans-LF.fd
 File: T1ClearSans-LF.fd 2014/03/14 (autoinst) Font definitions for T1/ClearSans
 -LF.
 )
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 48.
+(Font)              scaled to size 10.0pt on input line 49.
 \c@mv@tabular=\count124
 \c@mv@boldtabular=\count125
 
@@ -731,7 +731,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 48.
+LaTeX Info: Redefining \selectfont on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -768,7 +768,7 @@ LaTeX Info: Redefining \selectfont on input line 48.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 49.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -777,166 +777,165 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count132
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (../build//mabdelaz.out) (../build//mabdelaz.out)
 \@outlinefile=\write4
 \openout4 = `mabdelaz.out'.
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 114.
+(Font)              scaled to size 17.28pt on input line 115.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 114.
+(Font)              scaled to size 12.0pt on input line 115.
 
-Overfull \hbox (2.18419pt too wide) in paragraph at lines 114--114
+Overfull \hbox (2.18419pt too wide) in paragraph at lines 115--115
 []\T1/ClearSans-LF/m/n/12 Computer and Sys-tems En-gi-neer[] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 114.
+(Font)              <7> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 114.
+(Font)              <5> on input line 115.
 
 LaTeX Font Warning: Font shape `T1/ClearSans-LF/m/sc' undefined
-(Font)              using `T1/ClearSans-LF/m/n' instead on input line 114.
+(Font)              using `T1/ClearSans-LF/m/n' instead on input line 115.
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 114.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 114.
+(Font)              scaled to size 14.4pt on input line 115.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 115.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-Overfull \hbox (3.5164pt too wide) in paragraph at lines 114--114
+Overfull \hbox (3.5164pt too wide) in paragraph at lines 115--115
 [][]| 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 115.
 
-Overfull \hbox (3.29912pt too wide) in paragraph at lines 114--114
+Overfull \hbox (3.29912pt too wide) in paragraph at lines 115--115
 [][]| 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 114.
+(Font)              scaled to size 12.0pt on input line 115.
 
-Overfull \hbox (4.0501pt too wide) in paragraph at lines 114--114
+Overfull \hbox (4.0501pt too wide) in paragraph at lines 115--115
 [][]| 
  []
 
-<../img/linkedin.png, id=8, 42.91031pt x 45.92157pt>
+
+Overfull \hbox (2.19463pt too wide) in paragraph at lines 115--115
+[][]| 
+ []
+
+<../img/linkedin.png, id=9, 42.91031pt x 45.92157pt>
 File: ../img/linkedin.png Graphic file (type png)
  <use ../img/linkedin.png>
-Package pdftex.def Info: ../img/linkedin.png used on input line 114.
+Package pdftex.def Info: ../img/linkedin.png used on input line 115.
 (pdftex.def)             Requested size: 21.4551pt x 22.96072pt.
 
-Overfull \hbox (7.22873pt too wide) in paragraph at lines 114--114
+Overfull \hbox (7.22873pt too wide) in paragraph at lines 115--115
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 114.
+(Font)              scaled to size 20.74pt on input line 115.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 114.
+(Font)              scaled to size 12.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 114.
+(Font)              scaled to size 9.0pt on input line 115.
 
-Overfull \hbox (0.93314pt too wide) in paragraph at lines 114--114
+Overfull \hbox (0.93314pt too wide) in paragraph at lines 115--115
  \T1/ClearSans-LF/b/n/9 Python 
  []
 
-<../img/5stars.png, id=11, 122.4575pt x 24.09pt>
+<../img/5stars.png, id=12, 122.4575pt x 24.09pt>
 File: ../img/5stars.png Graphic file (type png)
  <use ../img/5stars.png>
-Package pdftex.def Info: ../img/5stars.png used on input line 114.
+Package pdftex.def Info: ../img/5stars.png used on input line 115.
 (pdftex.def)             Requested size: 48.98212pt x 9.63582pt.
 
-<../img/4stars.png, id=12, 122.4575pt x 24.09pt>
+<../img/4stars.png, id=13, 122.4575pt x 24.09pt>
 File: ../img/4stars.png Graphic file (type png)
  <use ../img/4stars.png>
-Package pdftex.def Info: ../img/4stars.png used on input line 114.
+Package pdftex.def Info: ../img/4stars.png used on input line 115.
 (pdftex.def)             Requested size: 48.98212pt x 9.63582pt.
 File: ../img/4stars.png Graphic file (type png)
 
 <use ../img/4stars.png>
-Package pdftex.def Info: ../img/4stars.png used on input line 114.
+Package pdftex.def Info: ../img/4stars.png used on input line 115.
 (pdftex.def)             Requested size: 48.98212pt x 9.63582pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 115.
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 114--114
+Overfull \hbox (0.4pt too wide) in paragraph at lines 115--115
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 120.
+(Font)              scaled to size 14.4pt on input line 121.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 134.
+(Font)              scaled to size 8.0pt on input line 136.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 134.
+(Font)              scaled to size 7.0pt on input line 136.
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--141
+Underfull \hbox (badness 10000) in paragraph at lines 123--143
 
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 171--171
+Underfull \hbox (badness 1755) in paragraph at lines 173--173
 []\T1/ClearSans-LF/m/sc/10 Instructing our teams on the im-ple-men-ta-tion of e
 lec-tri-cal
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 188--188
-\T1/ClearSans-LF/m/sc/10 Programming the stor-age sys-tem of a cog-ni-tive ra-d
-io cloud,
+Underfull \hbox (badness 2951) in paragraph at lines 189--189
+\T1/ClearSans-LF/m/sc/10 con-sisted of Linux nodes with ext2fs, us-ing IP mul-t
+i-cast and
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 188--188
-\T1/ClearSans-LF/m/sc/10 which con-sisted of Linux nodes with ext2fs, us-ing IP
- mul-ti-cast
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--192
+Underfull \hbox (badness 10000) in paragraph at lines 150--193
 
  []
 
 LaTeX Font Info:    Try loading font information for TS1+ClearSans-LF on input 
-line 200.
+line 201.
 (/usr/share/texlive/texmf-dist/tex/latex/clearsans/TS1ClearSans-LF.fd
 File: TS1ClearSans-LF.fd 2014/03/14 (autoinst) Font definitions for TS1/ClearSa
 ns-LF.
 )
 LaTeX Font Info:    Font shape `TS1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 200.
+(Font)              scaled to size 10.0pt on input line 201.
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--241
+Underfull \hbox (badness 10000) in paragraph at lines 236--242
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 245.
+(Font)              <8> on input line 246.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 245.
+(Font)              <6> on input line 246.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 245.
+(Font)              scaled to size 6.0pt on input line 246.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../img/linkedin.png> <../i
 mg/5stars.png> <../img/4stars.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
  (../build//mabdelaz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `mabdelaz.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -945,11 +944,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17748 strings out of 493029
- 329274 string characters out of 6136233
- 402932 words of memory out of 5000000
- 20934 multiletter control sequences out of 15000+600000
- 75932 words of font info for 48 fonts, out of 8000000 for 9000
+ 17750 strings out of 493029
+ 329296 string characters out of 6136233
+ 404379 words of memory out of 5000000
+ 20936 multiletter control sequences out of 15000+600000
+ 76353 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,56p,800b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}{/usr
@@ -958,10 +957,10 @@ texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on ../build//mabdelaz.pdf (1 page, 67071 bytes).
+Output written on ../build//mabdelaz.pdf (1 page, 68572 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

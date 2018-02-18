@@ -71,6 +71,7 @@
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
+\newcommand{\cvlinkedin}[1]{\renewcommand{\cvlinkedin}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
 \newcommand{\skills}[1]{\renewcommand{\skills}{#1}}
 \newcommand{\ospref}[1]{\renewcommand{\ospref}{#1}}
@@ -139,9 +140,10 @@
 			\ifthenelse{\equal{\cvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \cvaddress\\}
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \cvmail\\}
-			\ifthenelse{\equal{\cvsite}{}}{}{\includegraphics[scale=0.5]{../img/linkedin.png} & \vspace{-11px} \cvsite}
+			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\large\icon{\Mundus}} & \cvsite\\}
+			\ifthenelse{\equal{\cvlinkedin}{}}{}{\includegraphics[scale=0.5]{../img/linkedin.png} & \vspace{-11px} \cvlinkedin}
 		\end{tabular}
-        \ifthenelse{\equal{\cvsite}{}}{\vspace{-20px}}{}
+        \ifthenelse{\equal{\cvlinkedin}{}}{\vspace{-20px}}{}
 
 		%------------------------------------------------
 		
@@ -172,10 +174,10 @@
 			
 		%------------------------------------------------
 
-		\profilesection{Courses}
+		%\profilesection{Courses}
 
-        \raggedright
-        \courses
+        %\raggedright
+        %\courses
 
 	\end{textblock}
 }
