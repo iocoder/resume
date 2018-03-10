@@ -31,15 +31,14 @@
 \definecolor{sidecolor}{HTML}{E7E7E7}
 \definecolor{mainblue}{HTML}{0E5484}
 \definecolor{maingray}{HTML}{B9B9B9}
+\definecolor{darkgreen}{rgb}{0.0, 0.7, 0.3}
 
 %----------------------------------------------------------------------------------------
 %	 MISC CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
 %\renewcommand{\bfseries}{\color{gray}} % Make \textbf produce coloured text instead
-
 \pagestyle{empty} % Disable headers and footers
-
 \setlength{\parindent}{0pt} % Disable paragraph indentation
 
 %----------------------------------------------------------------------------------------
@@ -74,6 +73,7 @@
 \newcommand{\cvlinkedin}[1]{\renewcommand{\cvlinkedin}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
 \newcommand{\skills}[1]{\renewcommand{\skills}{#1}}
+\newcommand{\langs}[1]{\renewcommand{\langs}{#1}}
 \newcommand{\ospref}[1]{\renewcommand{\ospref}{#1}}
 \newcommand{\courses}[1]{\renewcommand{\courses}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
@@ -84,16 +84,15 @@
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
 
 % Command for printing language progress bars
-\newcommand\langs[1]{ 
-	\renewcommand{\langs}{
-		\begin{tikzpicture}
-			\foreach [count=\i] \x/\y in {#1}{
-				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-				\node [above right] at (0,\i+0.4) {\x};
-			}
-		\end{tikzpicture}
-	}
+\newcommand\langlist[3]{
+	\begin{flushleft}
+        #1 \vspace{1ex} \newline
+	    \begin{tikzpicture}
+             \draw[fill=maingray,maingray] (0,0) rectangle (6,  0.4);
+		     \draw[fill=white,   mainblue] (0,0) rectangle (#3, 0.4);
+			 \node[text=white, above right] at (1,-0.05) {\textit{#2}};
+	    \end{tikzpicture}
+	\end{flushleft}
 }
 
 %----------------------------------------------------------------------------------------

@@ -3,36 +3,33 @@
 
 Personal Info
 -------------
-Birthdate:  30 April 1993
-Location:   Metro Vancouver, Canada
+Location:   Toronto, Canada
+            Moving back to Egypt in Mar 18
 Phone:      +1 778-788-0657
-Website:    http://github.com/iocoder
 Email:      iocoder@aol.com
+Linkedin:   linkedin.com/in/mabdelaz
 
 About me
 --------
-Professional engineer with wide technical expertise in automatic
-control systems, computer networks, computer architecture, embedded
-systems, and database systems.
+Computer software engineer with wide technical expertise in software
+engineering, computer networks,database systems, computer
+architecture, and embedded systems.
 
 Skills
 ------
-Programming:       C (Expert), PLC, SQL, UNIX, Assembly, Java, 
-                   HTML, CSS, JS, and PHP.
+Programming:       C/C++ (Expert), PLC, SQL, UNIX, Assembly, Java, 
+                   Python, HTML, CSS, JS, and PHP.
 Operating Systems: GNU/Linux, FreeBSD, and Windows.
-Languages:         English, Arabic, and Italian.
+Languages:         English (Fluent); Arabic (Native); Italian (Beginner).
 
 Education
----------
-2011 - 2016  B.Sc., Computer and Systems Engineering
-             Alexandria University
-             GPA: 3.94.
-             Overall Ranking: 1 st.
-             Graduation Project: FPGA computer based on MIPS architecture.
-             Course Highlights: Control Theory, Modern Control, Embedded Sys-
-             tems, Computer Architecture, Software Engineering, System Soft-
-             ware, Operating Systems, Compilers, Switching Theory, Automata
-             Theory, Complexity Theory.
+----------
+2011 - 2016 B.Sc., Computer and Systems Engineering
+            Alexandria University
+            GPA: 3.94.
+            Overall Ranking: 1 st .
+            Graduation Project: FPGA computer based on MIPS architecture.
+            WES Evaluation: currently in progress.
 
 2008 - 2011 High School
             Mubarak Secondary School, Alexandria
@@ -41,57 +38,63 @@ Education
 
 Experience
 ----------
-Jun - Sep 17 Control Systems Engineer at Advanced HVAC Consultant, Cairo
-             Role: 
-             PLC/DDC programming for advanced HVAC systems. I was the leader
-             of a team responsible for installing and maintaining HVAC and BMS
-             systems for several clients in Cairo.
-             Duties:
-               1. Programming Saia Burgess PCD PLCs.
-               2. Designing BMS interfaces using Tridium controller.
-               3. Designing interfaces for various communication protocols.
-               4. Completing the deployment of BMS systems for several clients.
-               5. Instructing our teams on implementation of electrical boards.
-               6. Troubleshooting and solving technical problems.
+2017 Research Assistant
+     Simon Fraser University, BC
+     Implementation of an LTE base station using Ettus B210 USRP and
+     OpenAirInterface.
 
-Jul - Dec 16 Software Engineer at Ejada Systems Ltd., Alexandria
-             Role: 
-             Programming software modules for our clients.
-             Duties:
-               1. Implementation of CRM systems using Oracle Siebel.
-               2. Developing BigData solutions using Hadoop and Scala.
+2017 Control Systems Engineer
+     Advanced HVAC Consultant, Cairo
+     Implementation of feedback control loops for HVAC systems using
+     Fupla (function block diagrams) on Saia Burgess PLC devices. The
+     work included:
+        1. Control loops for airhand units (fans, valves, and sensors).
+        2. Control loops for chillers and water pumps.
+        3. Interfacing Saia Burgess PLCs and Honeywell Eagle DDCs using
+           Modbus and Bacnet/IP.
+        4. Developing interactive Human-Computer Interfaces using Trid-
+           ium controller to interface the human operator with PLC logic.
+        5. Instructing our teams on the implementation of electrical
+           boards composed of high-voltage relays and networks of PLCs
+           and RIOs.
+        6. Troubleshooting and solving technical problems at the field.
 
-Jun - Sep 15 RA Intern at SmartCI Research Center, Alexandria
-             Role: Implementation of the storage system of cognitive radio cloud.
+2016 Software Engineer
+     Ejada Systems Ltd., Alexandria
+     Providing enterprise solutions to banks in the Middle East, including:
+        1. Implementation of CRM systems using Oracle Siebel.
+        2. Developing BigData solutions using Hadoop and Scala.
+
+2015 RA Intern
+     SmartCI Research Center, Alexandria
+     Programming the storage system of a cognitive radio cloud, which
+     consisted of Linux nodes with ext2fs, using IP multicast and
+     filesystem-aware data compression.
 
 Selected Projects
 -----------------
-* Systema Programming Language.
-* Quafios Operating System for x86 and MIPS.
-* Radio KAOS: Cognitive Radio with Dynamic Spectrum Sharing Engine.
+* Quafios: An Operating System for x86 and MIPS. The system included:
+    - Implementation of a UNIX-like system call interface.
+    - Device drivers for PCI, USB, ATA, timers, interrupt controller, keyboard
+      controller, and other hardware components.
+    - Dynamic kernel-space and user-space memory allocation algorithms.
+    - Implementation for C library routines.
+    - A GUI, with a programmer-friendly API.
+* Compiler for subset of C and Java Programming Languages
 * CDP: Reliable Data Transfer Protocol for Linux Kernel TCP/IP Stack.
-* System for OS image distribution over cloud using Frisbee.
-* QCC C/Java Compiler for GNU/Linux.
-* Technical Report on UEFI.
-* Educational Program with Animated Agent for Disabled Children.
+* Designed a Linux kernel device driver and synchronization assignment for OS
+  course at Alexandria University.
+* Liftroid: Visualized elevator Android interface with AVR.
+* Technical Report on Unified Extensible Firmware Interface.
 
 Awards
 ------
-2017         IELTS English Language Certificate, Band Score: 7.5.
-2017         CSED Golden Armor for the top student of 2015-2016 Class.
-2017         Prof. Naeem Abou Taleb Award for top student.
-2016         Certificate of Excellence, Alexandria University.
-2015         Certificate of Excellence, Alexandria University.
-2014         Certificate of Excellence, Alexandria University.
-2013         Certificate of Excellence, Alexandria University.
-2012         Certificate of Achievement, ACM Alexandria CPC.
-2010         Silver Medal, Egyptian Olympiad in Informatics.
-2009         Silver Medal, Egyptian Olympiad in Informatics.
-2008         Platinum Award, Cyberfair, Bibliotheca Alexandrina.
+2017         CSED Golden Armor for the Top Student of 2015-2016 Class.
+2017         Prof. Naeem Abou Taleb Award for Top Student.
+2012 - 2016  Certificate of Excellence, Alexandria University.
 
 Footnotes
 ---------
 - You need a monospace font to correctly view this text version of my resume.
-- Mailing Address: 7252 Hastings St., Burnaby, BC, Canada - V5A 1G8.
 - You can find the LATEX source code of my resume at http://www.github.com/iocoder/resume.
 
