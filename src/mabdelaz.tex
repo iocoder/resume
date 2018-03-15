@@ -55,16 +55,16 @@
 \aboutme{Computer software engineer with wide technical expertise in software engineering,
          computer networks, database systems, computer architecture, and embedded
          systems.\\
-         \vspace{10px}
-         \underline{Status in Canada}: \textbf{Refugee Claimant} (under the 
-                           Expedited Processing policy) with an \textbf{Open Work Permit}.
+         %\vspace{10px}
+         %\underline{Status in Canada}: \textbf{Refugee Claimant} (under the 
+         %                  Expedited Processing policy) with an \textbf{Open Work Permit}.
         }
 
 %----------------------------------------------------------------------------------------
-%	 SKILLS
+%	 Technologies
 %----------------------------------------------------------------------------------------
 
-\skills{
+\tech{
     \center{
         \begin{tikzpicture}[font=\sffamily\bfseries\large, text=white, border/.style={line width=14mm}]
         \foreach \angle/\col [remember=\angle as \last (initially 0)] in 
@@ -74,14 +74,14 @@
                 \draw[white, line width=1mm] (\last:1.3)--++(\last:1.4);
         }
         \node[line width=1mm, draw, circle, minimum width=2.5cm, white, fill=blue!80] {C/C++};
-        \node at (45:2cm) {PLC};
+        \node at (45:2cm) {Java};
         \node at (108:2cm) {SQL};
-        \node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (143:2cm) 
-            {Java Python};
+        \node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (146:2cm) 
+            {Android};
         \node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (185:2cm) 
             {HTML CSS JS PHP};
-        \node at (240:2cm) {UNIX};
-        \node at (300:2cm) {Assembly};
+        \node at (240:2cm) {Python};
+        \node at (300:2cm) {Linux};
         \end{tikzpicture}
     }
 }
@@ -133,7 +133,7 @@
 	\twentyitem{2011 - 2016}
                {B.Sc., Computer and Systems Engineering}
                {Alexandria University}
-               {\textcolor{darkgreen}{\textbf{WES Evaluation}}: completed on March \nth{2}, 2018.\newline
+               {\textcolor{darkgreen}{\textbf{WES Evaluation}}: Completed on March \nth{2}, 2018.\newline
                 \textbf{GPA}: 3.94.\newline
                 \textbf{Overall Ranking}: \underline{\nth{1}}.\newline
                 \textbf{Graduation Project}: FPGA computer based on MIPS architecture.\newline
@@ -144,10 +144,25 @@
                }
 	\twentyitem{2008 - 2011}
                {High School}
-               {Mubarak Secondary School, Alexandria}
+               {Mubarak Secondary School}
                {\textbf{Overall Grade}: 407.5/410 (99.36\%).\newline
                 \textbf{Specialization}: Mathematics.}
 \end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Highlights
+%----------------------------------------------------------------------------------------
+
+\section{Highlights}
+
+\begin{itemize}
+    \item{Confident, friendly, very polite, and always smiling when 
+          dealing with customers and co-workers.}
+    \item{Excellent interpersonal and communication skills in \textbf{English}.}
+    \item{Great ability to learn new technologies quickly.}
+    \item{Advanced technical writing skills in \textbf{\LaTeX} (this r\'esum\'e is an example).}
+    \item{Extensive knowledge of the foundations of Computer Science.}
+\end{itemize}
 
 %----------------------------------------------------------------------------------------
 %	 EXPERIENCE
@@ -158,31 +173,31 @@
 \begin{twenty}
 	\twentyitem{\hspace{2ex} 2017}
                {Research Assistant}
-               {Simon Fraser University, BC}
+               {Simon Fraser University}
                {Implementation of an LTE base station using \textit{Ettus B210 USRP} and \textit{OpenAirInterface}.
                }
 
-	\twentyitem{\hspace{2ex} 2017}
-               {Control Systems Engineer}
-               {Advanced HVAC Consultant, Cairo}
-               {Implementation of feedback control loops for HVAC systems using \textit{Fupla} (function block diagrams) on 
-                \textit{Saia Burgess PLC} devices. The work included:
-                \begin{enumerate}
-                    \item{Control loops for airhand units (fans, valves, and sensors).}
-                    \item{Control loops for chillers and water pumps.}
-                    \item{Interfacing \textit{Saia Burgess PLCs} and \textit{Honeywell Eagle DDCs} using 
-                          Modbus and Bacnet/IP.}
-                    \item{Developing interactive Human-Computer Interfaces using \textit{Tridium controller}
-                          to interface the human operator with PLC logic.}
-                    \item{Instructing our teams on the implementation of electrical boards composed of
-                          high-voltage relays and networks of PLCs and RIOs.}
-                    \item{Troubleshooting and solving technical problems at the field.}
-                \end{enumerate}
-               }
+%	\twentyitem{\hspace{2ex} 2017}
+%               {Control Systems Engineer}
+%               {Advanced HVAC Consultant, Cairo}
+%               {Implementation of feedback control loops for HVAC systems using \textit{Fupla} (function block diagrams) on 
+%                \textit{Saia Burgess PLC} devices. The work included:
+%                \begin{enumerate}
+%                    \item{Control loops for airhand units (fans, valves, and sensors).}
+%                    \item{Control loops for chillers and water pumps.}
+%                    \item{Interfacing \textit{Saia Burgess PLCs} and \textit{Honeywell Eagle DDCs} using 
+%                          Modbus and Bacnet/IP.}
+%                    \item{Developing interactive Human-Computer Interfaces using \textit{Tridium controller}
+%                          to interface the human operator with PLC logic.}
+%                    \item{Instructing our teams on the implementation of electrical boards composed of
+%                          high-voltage relays and networks of PLCs and RIOs.}
+%                    \item{Troubleshooting and solving technical problems at the field.}
+%                \end{enumerate}
+%               }
 
 	\twentyitem{\hspace{2ex} 2016}
                {Software Engineer}
-               {Ejada Systems Ltd., Alexandria}
+               {Ejada Systems Ltd.}
                {Providing enterprise solutions to banks in the Middle East, including:
                 \begin{enumerate}
                     \item Implementation of \textbf{CRM} systems using \textbf{Oracle Siebel}.
@@ -192,7 +207,7 @@
 
 	\twentyitem{\hspace{2ex} 2015}
                {RA Intern}
-               {SmartCI Research Center, Alexandria}
+               {SmartCI Research Center}
                {Programming the storage system of a cognitive radio cloud, which consisted of
                 Linux nodes with ext2fs, using IP multicast and filesystem-aware data compression.}
 
@@ -206,6 +221,9 @@
 \section{Selected Projects}
 
 \begin{itemize}
+    \item{Expanada: Financial management application in \textbf{\underline{Python}} and \textbf{\underline{SQL}}.}
+    \item{XMLCurses: \textbf{\underline{Python library}} for programming libcurses applications using XML.}
+    \item{Liftroid: Visualized elevator \textbf{\underline{Android}} interface with AVR.}
     \item{Quafios: An Operating System for x86 and MIPS. The system included:
           \begin{itemize}
             \item Implementation of a UNIX-like system call interface.
@@ -216,23 +234,23 @@
             \item A GUI, with a programmer-friendly API.
           \end{itemize}
           }
-    \item{Compiler for subset of C and Java Programming Languages}
-    %\item{Systema Programming Language and Compiler.}
+    \item{\textbf{\underline{Compiler}} for a subset of \textbf{\underline{C}} and 
+          \textbf{\underline{Java}} Programming Languages}
+    \item{Systema: Educational system-level \textbf{\underline{programming language and compiler}}.}
     %\item{Radio KAOS: Cognitive Radio with Dynamic Spectrum Sharing Engine.}
-    \item{CDP: Reliable Data Transfer Protocol for Linux Kernel TCP/IP Stack.}
-    \item{Designed a Linux kernel device driver and synchronization assignment 
+    \item{CDP: \textbf{\underline{Linux kernel driver}} implementation for a reliable Data Transfer Protocol.}
+    \item{Designed a \textbf{\underline{Linux kernel device driver}} and synchronization assignment 
           for OS course at Alexandria University.}
-    \item{Liftroid: Visualized elevator Android interface with AVR.}
-    \item{Technical Report on \textit{Unified Extensible Firmware Interface}.}
+    \item{Technical Report on Unified Extensible Firmware Interface.}
     %\item{IDE to USB interface using AVR and PIC.}
     %\item{8086 micro-computer system.}
     %\item{System for OS image distribution over cloud using Frisbee.}
-    %\item{QCC C/Java Compiler for GNU/Linux.}
+    \item{Relational \textbf{\underline{Database}} Management System in \textbf{\underline{Java}}.}
     %\item{NES (Nintendo Entertainment System) Simulator.}
     %\item{Hello World BIOS.}
     %\item{Static RAM with MOSFETs on PCB.}
     %\item{T-DEC/102, a simulated TTL computer.}
-    %\item{Educational Program with Animated Agent for Disabled Children.}
+    \item{Educational Program with Animated Agent for Disabled Children in \textbf{\underline{VB.NET}}.}
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
@@ -248,12 +266,12 @@
 	%\twentyitemshort{<dates>}{<title/description>}
 \end{twentyshort}
 
-\vfill
-\footnotesize{
-\begin{itemize}[leftmargin=10px]
-    \item[--] You can find the \LaTeX source code of my resume at \color{blue}{
-                 \href{http://www.github.com/iocoder/resume}{http://www.github.com/iocoder/resume}}.
-\end{itemize}
-}
+%\vfill
+%\footnotesize{
+%\begin{itemize}[leftmargin=10px]
+%    \item[--] You can find the \LaTeX source code of my resume at \color{blue}{
+%                 \href{http://www.github.com/iocoder/resume}{http://www.github.com/iocoder/resume}}.
+%\end{itemize}
+%}
 
 \end{document} 

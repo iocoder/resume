@@ -72,7 +72,7 @@
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
 \newcommand{\cvlinkedin}[1]{\renewcommand{\cvlinkedin}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
-\newcommand{\skills}[1]{\renewcommand{\skills}{#1}}
+\newcommand{\tech}[1]{\renewcommand{\tech}{#1}}
 \newcommand{\langs}[1]{\renewcommand{\langs}{#1}}
 \newcommand{\ospref}[1]{\renewcommand{\ospref}{#1}}
 \newcommand{\courses}[1]{\renewcommand{\courses}{#1}}
@@ -155,9 +155,9 @@
 
 		%------------------------------------------------
 
-		\profilesection{Skills}
+		\profilesection{Technologies}
 
-		\skills
+		\tech
 
 		%------------------------------------------------
 
@@ -187,7 +187,7 @@
 
 % Command to create the rounded boxes around the first three letters of section titles
 \newcommand*\round[2]{%
-	\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm, fill=#2,#2,text=white](char){#1};%
+	\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=4pt, minimum size=5.5mm, text height=3.6mm, fill=#2,#2,text=white](char){#1};%
 }
 
 \newcounter{colorCounter}
@@ -195,17 +195,17 @@
 	{%
 		\round{#1}{
 			\ifcase\value{colorCounter}%
-			maingray\or%
 			mainblue\or%
-			maingray\or%
 			mainblue\or%
-			maingray\or%
 			mainblue\or%
-			maingray\or%
 			mainblue\or%
- 			maingray\or%
+			mainblue\or%
+			mainblue\or%
+			mainblue\or%
+			mainblue\or%
+ 			mainblue\or%
 			mainblue\else%
-			maingray\fi%
+			mainblue\fi%
 		}%
 	}%
 	\stepcounter{colorCounter}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.21)  9 MAR 2018 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.21)  15 MAR 2018 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,8 +853,8 @@ LaTeX Font Info:    Font shape `T1/ClearSans-LF/b/n' will be
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 123.
 
-Overfull \hbox (0.93314pt too wide) in paragraph at lines 123--123
- \T1/ClearSans-LF/b/n/9 Python 
+Overfull \hbox (4.62039pt too wide) in paragraph at lines 123--123
+ [][][][]\T1/ClearSans-LF/b/n/9 Android 
  []
 
 <../img/5stars.png, id=12, 122.4575pt x 24.09pt>
@@ -901,51 +901,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--151
 
  []
 
-
-Underfull \hbox (badness 1755) in paragraph at lines 181--181
-[]\T1/ClearSans-LF/m/sc/10 Instructing our teams on the im-ple-men-ta-tion of e
-lec-tri-cal
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 197--197
-\T1/ClearSans-LF/m/sc/10 con-sisted of Linux nodes with ext2fs, us-ing IP mul-t
-i-cast and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--201
-
- []
-
 LaTeX Font Info:    Try loading font information for TS1+ClearSans-LF on input 
-line 209.
+line 159.
 (/usr/share/texlive/texmf-dist/tex/latex/clearsans/TS1ClearSans-LF.fd
 File: TS1ClearSans-LF.fd 2014/03/14 (autoinst) Font definitions for TS1/ClearSa
 ns-LF.
 )
 LaTeX Font Info:    Font shape `TS1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 209.
+(Font)              scaled to size 10.0pt on input line 159.
+LaTeX Font Info:    Font shape `T1/ClearSans-LF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 163.
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--250
+Underfull \hbox (badness 2951) in paragraph at lines 212--212
+\T1/ClearSans-LF/m/sc/10 con-sisted of Linux nodes with ext2fs, us-ing IP mul-t
+i-cast and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--216
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 254.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 254.
-LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 254.
+
+Overfull \hbox (0.21632pt too wide) in paragraph at lines 225--226
+[]\T1/ClearSans-LF/m/sc/10 XMLCurses: $[]$ for pro-gram-ming libcurses ap-pli-c
+a-tions us-ing XML. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--268
+
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../img/linkedin.png> <../i
 mg/5stars.png> <../img/4stars.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
  (../build//mabdelaz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
 Package rerunfilecheck Info: File `mabdelaz.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -954,23 +950,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17728 strings out of 493029
- 328819 string characters out of 6136233
- 404939 words of memory out of 5000000
- 20914 multiletter control sequences out of 15000+600000
- 76353 words of font info for 49 fonts, out of 8000000 for 9000
+ 17706 strings out of 493029
+ 328582 string characters out of 6136233
+ 406236 words of memory out of 5000000
+ 20904 multiletter control sequences out of 15000+600000
+ 73942 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,56p,800b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}{/usr
-/share/texlive/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc}</usr/share/
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc}{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}</usr/share/
 texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on ../build//mabdelaz.pdf (1 page, 69981 bytes).
+Output written on ../build//mabdelaz.pdf (1 page, 68490 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 48 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
