@@ -7,7 +7,7 @@
 % http://www.LaTeXTemplates.com
 %
 % Original author:
-% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
 % Vel (vel@LaTeXTemplates.com)
 %
 % License:
@@ -52,11 +52,10 @@
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{Computer software engineer with wide technical expertise in software engineering,
-         computer networks, database systems, computer architecture, and embedded
-         systems.\\
+\aboutme{Computer software engineer with wide technical expertise in low-level programming,
+         embedded systems, computer networks, database systems, and computer architecture.\\
          %\vspace{10px}
-         %\underline{Status in Canada}: \textbf{Refugee Claimant} (under the 
+         %\underline{Status in Canada}: \textbf{Refugee Claimant} (under the
          %                  Expedited Processing policy) with an \textbf{Open Work Permit}.
         }
 
@@ -67,21 +66,19 @@
 \tech{
     \center{
         \begin{tikzpicture}[font=\sffamily\bfseries\large, text=white, border/.style={line width=14mm}]
-        \foreach \angle/\col [remember=\angle as \last (initially 0)] in 
+        \foreach \angle/\col [remember=\angle as \last (initially 0)] in
             {90/blue!70!black, 125/cyan, 160/green!30!black, 210/yellow!30!black, 270/orange, 360/red!70!black}{
-                \draw[\col, border] (\last:2cm) 
+                \draw[\col, border] (\last:2cm)
                      arc[start angle=\last, end angle=\angle, radius=2cm];
                 \draw[white, line width=1mm] (\last:1.3)--++(\last:1.4);
         }
         \node[line width=1mm, draw, circle, minimum width=2.5cm, white, fill=blue!80] {C/C++};
-        \node at (45:2cm) {Java};
-        \node at (108:2cm) {SQL};
-        \node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (146:2cm) 
-            {Android};
-        \node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (185:2cm) 
-            {HTML CSS JS PHP};
-        \node at (240:2cm) {Python};
-        \node at (300:2cm) {Linux};
+        \node[text width=1cm, align=center, font=\sffamily\bfseries\normalsize] at (60:1.70cm)  {Embedded};
+        \node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (108:2cm) {Bash};
+        \node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (146:2cm) {Android};
+        \node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (185:2cm) {HTML CSS JS PHP};
+        \node[text width=1cm, align=center, font=\sffamily\bfseries\normalsize] at (235:2.25cm) {Assembly};
+        \node[text width=1cm, align=center, font=\sffamily\bfseries\normalsize] at (300:2cm) {Linux};
         \end{tikzpicture}
     }
 }
@@ -133,10 +130,10 @@
 	\twentyitem{2011 - 2016}
                {B.Sc., Computer and Systems Engineering}
                {Alexandria University}
-               {\textcolor{darkgreen}{\textbf{WES Evaluation}}: Completed on March \nth{2}, 2018.\newline
-                \textbf{GPA}: 3.94.\newline
+               {\textbf{GPA}: 3.94.\newline
                 \textbf{Overall Ranking}: \underline{\nth{1}}.\newline
-                \textbf{Graduation Project}: FPGA computer based on MIPS architecture.\newline
+                \textbf{WES Evaluation}: Completed on March \nth{2}, 2018.\newline
+                \textbf{Graduation Project}: \textbf{FPGA} computer based on \textbf{MIPS} architecture.\newline
                 %\textbf{Course Highlights}: Control Theory, Modern Control, Embedded Systems,
                 %                            Computer Architecture, Software Engineering,
                 %                            System Software, Operating Systems, Compilers, Switching Theory,
@@ -153,16 +150,16 @@
 %	 Highlights
 %----------------------------------------------------------------------------------------
 
-\section{Highlights}
+%\section{Highlights}
 
-\begin{itemize}
-    \item{Confident, friendly, very polite, and always smiling when 
-          dealing with customers and co-workers.}
-    \item{Excellent interpersonal and communication skills in \textbf{English}.}
-    \item{Great ability to learn new technologies quickly.}
-    \item{Advanced technical writing skills in \textbf{\LaTeX} (this r\'esum\'e is an example).}
-    \item{Extensive knowledge of the foundations of Computer Science.}
-\end{itemize}
+%\begin{itemize}
+%    \item{Confident, friendly, very polite, and always smiling when
+%          dealing with customers and co-workers.}
+%    \item{Excellent interpersonal and communication skills in \textbf{English}.}
+%    \item{Great ability to learn new technologies quickly.}
+%    \item{Advanced technical writing skills in \textbf{\LaTeX} (this r\'esum\'e is an example).}
+%    \item{Extensive knowledge of the foundations of Computer Science.}
+%\end{itemize}
 
 %----------------------------------------------------------------------------------------
 %	 EXPERIENCE
@@ -171,33 +168,45 @@
 \section{Experience}
 
 \begin{twenty}
+
+  \twentyitem{\hspace{2ex} 2018}
+             {Software Engineer}
+             {SoundHound Inc., Toronto}
+             {Mainly working on high-end Speech Recognition and Natural Language Processing products. Some of the job responsibilities included:
+             \begin{enumerate}
+                 \item{Leveraging my \textbf{C/C++} programming skills to develop server-side \textbf{NLP} modules.}
+                 \item{Provide \textbf{Linux} technical expertise to the automation of various processes.}
+                 \item{Manipulating and managing large databases and information systems.}
+             \end{enumerate}
+             }
+
 	\twentyitem{\hspace{2ex} 2017}
                {Research Assistant}
-               {Simon Fraser University}
-               {Implementation of an LTE base station using \textit{Ettus B210 USRP} and \textit{OpenAirInterface}.
+               {SFU, Vancouver}
+               {Implementation of an LTE base station using \textit{Ettus B210} \textbf{USRP} and \textit{OpenAirInterface}.
                }
 
-%	\twentyitem{\hspace{2ex} 2017}
-%               {Control Systems Engineer}
-%               {Advanced HVAC Consultant, Cairo}
-%               {Implementation of feedback control loops for HVAC systems using \textit{Fupla} (function block diagrams) on 
-%                \textit{Saia Burgess PLC} devices. The work included:
-%                \begin{enumerate}
-%                    \item{Control loops for airhand units (fans, valves, and sensors).}
-%                    \item{Control loops for chillers and water pumps.}
-%                    \item{Interfacing \textit{Saia Burgess PLCs} and \textit{Honeywell Eagle DDCs} using 
-%                          Modbus and Bacnet/IP.}
-%                    \item{Developing interactive Human-Computer Interfaces using \textit{Tridium controller}
-%                          to interface the human operator with PLC logic.}
-%                    \item{Instructing our teams on the implementation of electrical boards composed of
-%                          high-voltage relays and networks of PLCs and RIOs.}
-%                    \item{Troubleshooting and solving technical problems at the field.}
-%                \end{enumerate}
-%               }
+	\twentyitem{\hspace{2ex} 2017}
+               {Control Systems Engineer}
+               {Advanced HVAC Consultant, Cairo}
+               {Implementation of feedback control loops for \textbf{HVAC} systems using \textit{Fupla} (function block diagrams) on
+                \textit{Saia Burgess} \textbf{PLC} devices. The work included:
+                \begin{enumerate}
+                    \item{Control loops for airhand units (fans, valves, and sensors).}
+                    %\item{Control loops for chillers and water pumps.}
+                    \item{Interfacing \textit{Saia Burgess PLCs} and \textit{Honeywell Eagle DDCs} using
+                          \textbf{Modbus} and \textbf{Bacnet/IP}.}
+                    %\item{Developing interactive Human-Computer Interfaces using \textit{Tridium controller}
+                    %      to interface the human operator with PLC logic.}
+                    \item{Instructing our teams on the implementation of electrical boards composed of
+                          \textbf{high-voltage relays} and networks of PLCs.}
+                    %\item{Troubleshooting and solving technical problems at the field.}
+                \end{enumerate}
+               }
 
 	\twentyitem{\hspace{2ex} 2016}
                {Software Engineer}
-               {Ejada Systems Ltd.}
+               {Ejada Systems Ltd., Alexandria}
                {Providing enterprise solutions to banks in the Middle East, including:
                 \begin{enumerate}
                     \item Implementation of \textbf{CRM} systems using \textbf{Oracle Siebel}.
@@ -207,9 +216,10 @@
 
 	\twentyitem{\hspace{2ex} 2015}
                {RA Intern}
-               {SmartCI Research Center}
+               {SmartCI Research Center, Alexandria}
                {Programming the storage system of a cognitive radio cloud, which consisted of
-                Linux nodes with ext2fs, using IP multicast and filesystem-aware data compression.}
+                Linux nodes with \textbf{ext2fs}, using \textbf{IP multicast} and \textbf{filesystem-aware}
+                \textbf{data compression}.}
 
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
@@ -221,50 +231,50 @@
 \section{Selected Projects}
 
 \begin{itemize}
-    \item{Expanada: Financial management application in \textbf{\underline{Python}} and \textbf{\underline{SQL}}.}
-    \item{XMLCurses: \textbf{\underline{Python library}} for programming libcurses applications using XML.}
-    \item{Liftroid: Visualized elevator \textbf{\underline{Android}} interface with AVR.}
-    \item{Quafios: An Operating System for x86 and MIPS. The system included:
+    %\item{Expanada: Financial management application in \textbf{\underline{Python}} and \textbf{\underline{SQL}}.}
+    %\item{XMLCurses: \textbf{\underline{Python library}} for programming libcurses applications using XML.}
+    \item{Quafios: An \textbf{\underline{Operating System}} for x86 and MIPS. The system included:
           \begin{itemize}
-            \item Implementation of a UNIX-like system call interface.
-            \item Device drivers for PCI, USB, ATA, timers, interrupt controller, 
+            \item Implementation of a UNIX-like \textbf{\underline{system call}} interfaces.
+            \item \textbf{\underline{Device drivers}} for PCI, USB, ATA, timers, interrupt controller,
                   keyboard controller, and other hardware components.
-            \item Dynamic kernel-space and user-space memory allocation algorithms.
-            \item Implementation for C library routines.
+            \item Dynamic kernel-space and user-space \textbf{\underline{memory allocation}} algorithms.
+            \item Implementation for \textbf{\underline{C library}} routines.
             \item A GUI, with a programmer-friendly API.
           \end{itemize}
           }
-    \item{\textbf{\underline{Compiler}} for a subset of \textbf{\underline{C}} and 
+    \item{Liftroid: Visualized elevator Android interface with \textbf{\underline{AVR}}.}
+    \item{\textbf{\underline{Compiler}} for a subset of \textbf{\underline{C}} and
           \textbf{\underline{Java}} Programming Languages}
     \item{Systema: Educational system-level \textbf{\underline{programming language and compiler}}.}
     %\item{Radio KAOS: Cognitive Radio with Dynamic Spectrum Sharing Engine.}
     \item{CDP: \textbf{\underline{Linux kernel driver}} implementation for a reliable Data Transfer Protocol.}
-    \item{Designed a \textbf{\underline{Linux kernel device driver}} and synchronization assignment 
+    \item{Designed a \textbf{\underline{Linux kernel device driver}} and synchronization assignment
           for OS course at Alexandria University.}
-    \item{Technical Report on Unified Extensible Firmware Interface.}
+    \item{Technical Report on Unified Extensible Firmware Interface (\textbf{\underline{UEFI}}).}
     %\item{IDE to USB interface using AVR and PIC.}
     %\item{8086 micro-computer system.}
     %\item{System for OS image distribution over cloud using Frisbee.}
-    \item{Relational \textbf{\underline{Database}} Management System in \textbf{\underline{Java}}.}
+    %\item{Relational \textbf{\underline{Database}} Management System in \textbf{\underline{Java}}.}
     %\item{NES (Nintendo Entertainment System) Simulator.}
-    %\item{Hello World BIOS.}
+    \item{Hello World \textbf{\underline{BIOS}}.}
     %\item{Static RAM with MOSFETs on PCB.}
     %\item{T-DEC/102, a simulated TTL computer.}
-    \item{Educational Program with Animated Agent for Disabled Children in \textbf{\underline{VB.NET}}.}
+    %\item{Educational Program with Animated Agent for Disabled Children in \textbf{\underline{VB.NET}}.}
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
 %	 AWARDS
 %----------------------------------------------------------------------------------------
 
-\section{Selected Awards}
-
-\begin{twentyshort}
-	\twentyitemshort{2017}       {CSED Golden Armor for the \textbf{Top Student} of 2015-2016 Class.}
-	\twentyitemshort{2017}       {Prof. Naeem Abou Taleb Award for \textbf{Top Student}.}
-	\twentyitemshort{2012 - 2016}{\textbf{Certificate of Excellence}, Alexandria University.}
-	%\twentyitemshort{<dates>}{<title/description>}
-\end{twentyshort}
+%\section{Selected Awards}
+%
+%\begin{twentyshort}
+%	\twentyitemshort{2017}       {CSED Golden Armor for the \textbf{Top Student} of 2015-2016 Class.}
+%	\twentyitemshort{2017}       {Prof. Naeem Abou Taleb Award for \textbf{Top Student}.}
+%	\twentyitemshort{2012 - 2016}{\textbf{Certificate of Excellence}, Alexandria University.}
+%	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
 
 %\vfill
 %\footnotesize{
@@ -274,4 +284,4 @@
 %\end{itemize}
 %}
 
-\end{document} 
+\end{document}
