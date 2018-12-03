@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.21)  3 DEC 2018 01:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.21)  3 DEC 2018 02:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -903,49 +903,49 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 120--120
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 141.
+(Font)              scaled to size 8.0pt on input line 142.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 141.
+(Font)              scaled to size 7.0pt on input line 142.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--148
+Underfull \hbox (badness 10000) in paragraph at lines 128--149
 
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 205--205
+Underfull \hbox (badness 1755) in paragraph at lines 206--206
 []\T1/ClearSans-LF/m/sc/10 Instructing our teams on the im-ple-men-ta-tion of e
 lec-tri-cal
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 222--222
+Underfull \hbox (badness 2368) in paragraph at lines 223--223
 \T1/ClearSans-LF/m/sc/10 con-sisted of Linux nodes with \T1/ClearSans-LF/b/n/10
  ext2fs\T1/ClearSans-LF/m/sc/10 , us-ing \T1/ClearSans-LF/b/n/10 IP mul-ti-cast
  \T1/ClearSans-LF/m/sc/10 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--226
+Underfull \hbox (badness 10000) in paragraph at lines 171--227
 
  []
 
 LaTeX Font Info:    Try loading font information for TS1+ClearSans-LF on input 
-line 236.
+line 237.
 (/usr/share/texlive/texmf-dist/tex/latex/clearsans/TS1ClearSans-LF.fd
 File: TS1ClearSans-LF.fd 2014/03/14 (autoinst) Font definitions for TS1/ClearSa
 ns-LF.
 )
 LaTeX Font Info:    Font shape `TS1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 236.
+(Font)              scaled to size 10.0pt on input line 237.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../img/linkedin.png> <../i
 mg/5stars.png> <../img/4stars.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
  (../build//mabdelaz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `mabdelaz.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -956,7 +956,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  17710 strings out of 493029
  328571 string characters out of 6136233
- 404195 words of memory out of 5000000
+ 404522 words of memory out of 5000000
  20903 multiletter control sequences out of 15000+600000
  68667 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -967,10 +967,10 @@ texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on ../build//mabdelaz.pdf (1 page, 68143 bytes).
+Output written on ../build//mabdelaz.pdf (1 page, 68444 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
