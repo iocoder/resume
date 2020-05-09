@@ -107,11 +107,11 @@
 	%------------------------------------------------
 
 	\begin{textblock}{6}(0.5, 0.2)
-			
+
 		%------------------------------------------------
 
         \vspace{18px}
-		
+
 		\ifthenelse{\equal{\profilepic}{}}{}{
 			\begin{center}
 				\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
@@ -140,12 +140,12 @@
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \cvmail\\}
 			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\large\icon{\Mundus}} & \cvsite\\}
-			\ifthenelse{\equal{\cvlinkedin}{}}{}{\includegraphics[scale=0.5]{../img/linkedin.png} & \vspace{-11px} \cvlinkedin}
+			\ifthenelse{\equal{\cvlinkedin}{}}{}{\includegraphics[scale=0.5]{linkedin.png} & \vspace{-11px} \cvlinkedin}
 		\end{tabular}
         \ifthenelse{\equal{\cvlinkedin}{}}{\vspace{-20px}}{}
 
 		%------------------------------------------------
-		
+
 		\ifthenelse{\equal{\aboutme}{}}{}{
 			\profilesection{About me}
 			\begin{flushleft}
@@ -164,13 +164,13 @@
 		\profilesection{My Programming Chart}
 
 		\tech
-		
+
 		%------------------------------------------------
 
 		\profilesection{Spoken Languages}
 
 		\langs
-			
+
 		%------------------------------------------------
 
 		%\profilesection{Courses}
